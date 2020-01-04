@@ -17,7 +17,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "https://ginamperez.com/socket.io";
+  const ENDPOINT = "https://ginamperez.com";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
