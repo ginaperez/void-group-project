@@ -2,7 +2,6 @@
 
 .home-main {
   background-color: $background-grey;
-  font-family: "lemon_milk", sans-serif;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -12,27 +11,42 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
     height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .headers-container {
-      background-color: rgba(255, 255, 255, 0.7);
-      border-radius: 60px;
-      padding-left: 85px;
-      padding-right: 95px;
-      padding-top: 90px;
-      padding-bottom: 90px;
+    .headers-container-bg-transparent {
+      width: 100%;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .headers-container {
+        text-shadow: 3px 3px 15px rgba(0,0,0,.514);
+        color: #ffffff;
+        border-radius: 60px;
+        padding-left: 85px;
+        padding-right: 95px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+      }
     }
+    
     h2 {
-      font-size: 40px;
+      font-size: 1.5rem;
+      font-weight: 700;
     }
     h1 {
       color: $lightest-blue;
-      text-shadow: 5px 5px $mid-blue, 10px 10px $mid-dark-blue,
-        15px 15px $background-blue;
-      font-size: 100px;
+      width: 100%;
+      font-size: 7rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
     }
   }
 
@@ -43,8 +57,7 @@
     height: 300px;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    font-family: "lemonmilk_lightregular", Arial, sans-serif;
+    font-size: 25px;
     font-weight: normal;
     font-style: normal;
   }
@@ -52,52 +65,49 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 350px;
+    align-items: center;
+    height: 400px;
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: whitesmoke;
+    margin: 0;
     .dashboard-icon-container {
       display: flex;
-      align-items: center;
-      justify-content: center;
       flex-direction: column;
-      height: 250px;
-      padding-bottom: 50px;
+      align-items: center;
+      // justify-content: center;
+      height: 300px;
       color: $darkest-blue;
-      font-family: "lemonmilk_lightregular", Arial, sans-serif;
       font-weight: normal;
       font-style: normal;
       .dashboard-icon {
         display: flex;
-        min-height: 200px;
-        width: 200px;
-        padding-bottom: 50px;
-        padding-top: 50px;
+        // justify-content: center;
+        // height: 500px;
+        width: 290px;
+        padding-bottom: 25px;
       }
     }
     .chat-icon-container {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 250px;
-      padding-bottom: 50px;
+      // justify-content: center;
+      height: 300px;
       color: $darkest-blue;
-      font-family: "lemonmilk_lightregular", Arial, sans-serif;
       font-weight: normal;
       font-style: normal;
       .chat-icon {
         display: flex;
-        min-height: 200px;
-        width: 200px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        // justify-content: center;
+        height: 290px;
+        width: 290px;
+        padding-bottom: 25px;
       }
     }
   }
   .about-us {
     background-color: $mid-blue;
-    font-family: "lemon_milk", sans-serif;
     display: flex;
     flex-direction: column;
     height: 450px;
@@ -106,7 +116,6 @@
     .about-us-title {
       font-size: 35px;
       padding-bottom: 30px;
-      font-family: "lemonmilk_lightregular", Arial, sans-serif;
       font-weight: normal;
       font-style: normal;
     }
@@ -137,7 +146,6 @@
         .name-1 {
           padding-top: 15px;
           padding-bottom: 10px;
-          font-family: "lemonmilk_lightregular", Arial, sans-serif;
           font-weight: normal;
           font-style: normal;
         }
@@ -165,7 +173,6 @@
         .name-2 {
           padding-top: 15px;
           padding-bottom: 10px;
-          font-family: "lemonmilk_lightregular", Arial, sans-serif;
           font-weight: normal;
           font-style: normal;
         }
@@ -193,7 +200,6 @@
         .name-3 {
           padding-top: 15px;
           padding-bottom: 10px;
-          font-family: "lemonmilk_lightregular", Arial, sans-serif;
           font-weight: normal;
           font-style: normal;
         }
@@ -221,7 +227,6 @@
         .name-4 {
           padding-top: 15px;
           padding-bottom: 10px;
-          font-family: "lemonmilk_lightregular", Arial, sans-serif;
           font-weight: normal;
           font-style: normal;
         }

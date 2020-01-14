@@ -1,0 +1,14 @@
+[33m[nodemon] 2.0.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node server/server.js`[39m
+Fri, 03 Jan 2020 20:03:42 GMT express-session deprecated req.secret; provide secret option at server/server.js:37:3
+Listening on port 4000.
+{ Error: connect ECONNREFUSED 127.0.0.1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5432 }

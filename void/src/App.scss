@@ -28,15 +28,14 @@ $background-grey: #282c34;
 }
 
 @font-face {
-  font-family: 'lemonmilk_lightregular';
-  src: url('./fonts/lemonmilklight-webfont.woff2') format('woff2'),
-       url('./fonts/lemonmilklight-webfont.woff') format('woff');
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
   font-weight: normal;
   font-style: normal;
 }
 
 .App {
-  font-family: 'lemonmilk_lightregular', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-style: normal;
   height: 100vh;

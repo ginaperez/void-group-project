@@ -11,13 +11,15 @@ export default class Landing extends React.Component {
     return (
       <div className="home-main">
         <div className="picture-element">
-          <div className="headers-container">
-            <h2>IT'S TIME TO ENTER</h2>
-            <h1>THE VOID</h1>
+          <div className="headers-container-bg-transparent">
+            <div className="headers-container">
+              <h1>Void</h1>
+              <h2>Changing the way you work as a group.</h2>
+            </div>
           </div>
         </div>
         <div className="dark-color-block">
-          Changing the Way You Work As A Group
+          The group productivity app that allows you to collaborate with your team in a single dashboard. 
         </div>
         <div className="icon-block">
           <div className="dashboard-icon-container">

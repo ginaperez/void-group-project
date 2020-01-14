@@ -162,5 +162,5 @@ io.on("connect", socket => {
   });
 });
 
-let port = SERVER_PORT || 4000;
+let port = SERVER_PORT || 4002;
 server.listen(port, () => console.log(`Listening on port ${port}.`));
