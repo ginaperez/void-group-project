@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to run the app with pm2
+
+The API for this application must be controlled via `pm2`, like this:
+
+```bash
+pm2 start nodemon --watch --name gina-void
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
